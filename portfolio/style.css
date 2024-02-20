@@ -1,0 +1,16 @@
+ .hidden { display: none; }
+
+nav ul li {
+            float: left;
+            padding: 5px;
+        }
+
+        main section {
+            margin-bottom: 2em;
+        }
+
+        #project1:target ~ .project-details,
+        #project2:target ~ .project-details,
+        #project3:target ~ .project-details {
+            display: block;
+        }
